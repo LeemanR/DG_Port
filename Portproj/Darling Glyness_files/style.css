@@ -1,0 +1,121 @@
+*{
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+
+/*BACKGROUND IMG*/
+
+body{
+	
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+}
+
+
+
+/*HOVER*/
+
+img:hover {
+  transform: scale(1.1);
+}
+
+
+
+/*LOGO*/
+
+#logo{
+	width: 140px;
+	height:140px;
+
+}
+
+
+/*HEADER*/
+
+div.header{
+
+	display: block;
+	text-align: center;
+	margin-bottom: .5rem;
+	
+}
+
+
+/*SOCIAL MEDIA ICONS*/
+
+ul.nav {
+	
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	
+  
+}
+
+
+li.navlist{
+	padding: 10px;
+	margin-bottom: 8rem;
+
+
+}
+
+/*ABOUT SECTION*/
+
+div.container{
+	display: flex;
+	position: relative;
+	margin: auto;
+	margin-bottom: 5rem;
+  	width: 50%;
+  	justify-content: center;
+
+
+}
+
+
+#Portrait{
+	border: 3px solid #e78200;
+	border-radius: 20px;
+}
+
+#myself{
+	text-align: left;
+	padding-top: 10%;
+	padding-left: 5%;
+
+}
+
+
+/*EDU SECTION*/
+
+div#Edudiv{
+	display: block;
+	text-align: center;
+
+}
+
+/*PROF SECTION*/
+
+
+div#Profdiv{
+	display: block;
+	text-align: center;
+
+
+}
+
+
+div#skill{
+	display: flex;
+	justify-content: space-between;
+
+
+
+
+}
+
